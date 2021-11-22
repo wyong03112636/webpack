@@ -2,9 +2,8 @@
   "name": "webpack",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/wyong03112636/webpack/issues"
   },
-  "homepage": "https://github.com/wyong03112636/webpack#readme"
+  "homepage": "https://github.com/wyong03112636/webpack#readme",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
 }
